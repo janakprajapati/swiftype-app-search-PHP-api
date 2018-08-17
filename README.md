@@ -14,14 +14,14 @@ $client = new \Swiftype\SwiftypeClient('api_key', 'api_end_point', 'api_base_pat
 print_r($client->create_engine('library'));
 
 print_r($client->create_document('library', array(
-		array(
-			'title' => 'The Art of Community',
-			'author' => 'Jono Bacon'
-		),
-		array(
-      'title' => 'Harry Potter and the Cursed Child',
-			'author' => 'J. K. Rowling'
-		)
+  array(
+    'title' => 'The Art of Community',
+    'author' => 'Jono Bacon'
+  ),
+  array(
+    'title' => 'Harry Potter and the Cursed Child',
+    'author' => 'J. K. Rowling'
+  )
 )));
 
 print_r($client->documents('library'));
