@@ -1,0 +1,16 @@
+{
+    "name": "janakprajapati/swiftype-app-search-php",
+    "description": "A PHP client for Swiftype - App Search API",
+    "type": "library",
+    "version": "1.0.0",
+    "homepage": "https://github.com/janakprajapati/swiftype-app-search-php",
+    "license": "MIT",
+    "require": {
+        "php": "^5.3"
+    },
+    "autoload": {
+      "psr-4": {
+        "Swiftype\\": ["Swiftype"]
+      }
+    }
+}
